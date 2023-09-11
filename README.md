@@ -1,27 +1,27 @@
-# Formy
+# Contact-Form
 <p align="center">
   <img src ="https://pp.userapi.com/c837734/v837734384/2bcd3/q7Fnn_Qaxts.jpg" />
 </p>
-Formy - its responsive and friendly contact form on html/sass/jquery/php and svg icons.
+Contact-Form - its responsive and friendly contact form on html/sass/jquery/php and svg icons.
 
-You can write me some emails with this form:  <a href="https://formy.vhumeniuk.com/">![Demo](https://img.shields.io/badge/watch-demo-green.svg)</a>
+You can write me some emails with this form:  <a href="https://Contact-Form.vhumeniuk.com/">![Demo](https://img.shields.io/badge/watch-demo-green.svg)</a>
 
 ## How to use
 Firsf of all, download and embed to your project styles and scripts:
 
-```<link rel="stylesheet" href="css/formy.min.css">``` - between ``<head>``` and ```</head>``` tags. 
+```<link rel="stylesheet" href="css/Contact-Form.min.css">``` - between ``<head>``` and ```</head>``` tags. 
 
-```<script src="js/formy.min.js"></script>```- after jquery, before the ```</body>``` tag
+```<script src="js/Contact-Form.min.js"></script>```- after jquery, before the ```</body>``` tag
 
-Then download into your project folder **php** with file **formy.php**.
+Then download into your project folder **php** with file **Contact-Form.php**.
 
-When you download and embed all styles and scripts, you need markup for your form, so just copy code between comments ```<!-- Formy code -->  <!-- /Formy code -->``` from file **formy.html**, and paste into your layout. 
+When you download and embed all styles and scripts, you need markup for your form, so just copy code between comments ```<!-- Contact-Form code -->  <!-- /Contact-Form code -->``` from file **Contact-Form.html**, and paste into your layout. 
 
 ### HTML markup
 Maybe it looks so massive, but this is due to the fact that SVG-icons take up much space, but trust me - it will be better than insert them as regular images.
 
 ```
-<form id="formy" name="formy" onSubmit="return validate(event);">
+<form id="Contact-Form" name="Contact-Form" onSubmit="return validate(event);">
 		<div id="result"></div>
 		<!--Name field-->
 		<div class="input-field">
@@ -66,7 +66,7 @@ Maybe it looks so massive, but this is due to the fact that SVG-icons take up mu
 	</form>
   ```
 ### PHP
-Before start using Formy on your website, you have to set your email adress in file formy.php in this field:
+Before start using Contact-Form on your website, you have to set your email adress in file Contact-Form.php in this field:
 ```
 $to = "your@email.com";
 ```
@@ -83,14 +83,14 @@ $to = "your@email.com";
  $default: $color-palette-grey // default state
  ```
 ### Inputs
-Deafault Formy include 4 inputs: Name, Email, Phone and Textarea.
+Deafault Contact-Form include 4 inputs: Name, Email, Phone and Textarea.
 All of them except text are is required, but you can turn it off (or on for text) just by adding ```required``` attribute. (js validation begins work only if this attribute is turned on).
 
 ### Validation
 I did not do too complex validation in this form. The first - is the standard HTML5 validation, then verification works on the minimum number of characters. In the field with the phone number is available only input numbers.
 I do not limit the input characters in the text field, but instead I made to automatically height change depending on the amount of text.
 
-### How is email from Formy looks like
+### How is email from Contact-Form looks like
 <p align="left">
   <img src ="http://image.prntscr.com/image/23e356e1219e4cc5ba3eb38ed4e53f0d.png" />
 </p>
@@ -103,4 +103,4 @@ Its just a first version, so think of it as an open beta testing. If it will be 
 in the next version i will add some checkboxes, select lists and radio buttons.
 
 ### SVG Icons
-In Formy i use svg icons Entypo by awesome Daniel Bruce. You can download whole pack from site [Entypo Icons](http://www.entypo.com/).
+In Contact-Form i use svg icons Entypo by awesome Daniel Bruce. You can download whole pack from site [Entypo Icons](http://www.entypo.com/).
