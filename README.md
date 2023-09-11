@@ -90,11 +90,6 @@ All of them except text are is required, but you can turn it off (or on for text
 I did not do too complex validation in this form. The first - is the standard HTML5 validation, then verification works on the minimum number of characters. In the field with the phone number is available only input numbers.
 I do not limit the input characters in the text field, but instead I made to automatically height change depending on the amount of text.
 
-### How is email from Contact-Form looks like
-<p align="left">
-  <img src ="http://image.prntscr.com/image/23e356e1219e4cc5ba3eb38ed4e53f0d.png" />
-</p>
-
 ### How much does it weigh
 Less than 10 kb (838b php, 2,79kb css, 4,69kb js + around 1.5kb markup).
 
